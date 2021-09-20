@@ -14,5 +14,5 @@ under construction.
 2. Dataset.xlsx  
 .  
   
-3. figs  
+3. figures  
 Figures generated from the R code.  
