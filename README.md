@@ -11,7 +11,7 @@ Here we show the R code and dataset to analyze the relationship SSDs between bas
 
 # Files
 1. Rcode.md  
-An example R code for analysis and visualization. This code requires an input dataset (e.g., "example.xlsx").  
+An example R code for analysis and visualization. This code requires an input dataset (i.e., "TablesS1_S3.xlsx").  
      
 2. TablesS1_S3.xlsx  
 Data for R analysis.  
