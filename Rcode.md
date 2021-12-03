@@ -30,6 +30,7 @@
     #### Data preparation ####
     Water_test_transformed <- Water_test %>%
       mutate_at(vars(logKow,logKoc, Days),as.numeric) %>%
+      filter(!is.na(logKoc)) %>%
       mutate(LC50_corrected = ifelse(Days<=3.99,LC50/((logKow*0.0988+0.9807)*2.56), # using DiToro's ratio
                                           ifelse(Days<=5,LC50/(2.56),LC50) )) %>%
       mutate(LC50_sediment = LC50 * (10^logKoc) ) %>%
